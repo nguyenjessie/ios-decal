@@ -1,0 +1,11 @@
+framework module CalCentralServer {
+  umbrella header "CalCentralServer.h"
+
+  export *
+  module * { export * }
+}
+
+module CalCentralServer.Swift {
+    header "CalCentralServer-Swift.h"
+    requires objc
+}

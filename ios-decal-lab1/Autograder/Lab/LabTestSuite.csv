@@ -1,0 +1,6 @@
+"Test Number";"Description";"Dependencies (All tests dependent on Q0 aka Existence)";"Point Value";"# of Indents (leave blank for 0)"
+"0";"Prepare";"";"0";""
+"1";"textToDisplay property in NiceWorkViewController equals the value stored in formattedTextArray in DefineVariableViewController.";"";"1";""
+"2";"Working with Optionals";"";"1";""
+"3";"View Controller Lifecycle";"";"1";""
+"4";"Using the Debugger";"";"1";""
