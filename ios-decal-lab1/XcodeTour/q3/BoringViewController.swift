@@ -15,14 +15,14 @@ class BoringViewController: UIViewController {
     
     // TODO: Starting from 1, fill in the order these methods are called. If the method is never called, leave it `nil`.
     var viewControllerEventOrder: [String: Int?] = [
-        "viewDidAppear": 3,
-        "viewDidDisappear": 4,
+        "viewDidAppear": 4,
+        "viewDidDisappear": 6,
         "init()": nil,
-        "viewDidLoad": 1,
+        "viewDidLoad": 2,
         "init(nibName:bundle:)": nil,
-        "init?(coder:)": nil,
-        "viewWillDisappear": nil,
-        "viewWillAppear": 2
+        "init?(coder:)": 1,
+        "viewWillDisappear": 5,
+        "viewWillAppear": 3
     ]
     
     // MARK: - Initialization methods
