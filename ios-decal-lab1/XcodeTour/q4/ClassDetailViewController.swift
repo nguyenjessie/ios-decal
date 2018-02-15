@@ -17,7 +17,8 @@ class ClassDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        submitEnrollmentRequest(withPermissionCode: permissionCode, forUser: "Test McTester")
+        let stringCode = String(describing: permissionCode)
+        submitEnrollmentRequest(withPermissionCode: stringCode, forUser: "Test McTester")
     }
 
     override func didReceiveMemoryWarning() {
