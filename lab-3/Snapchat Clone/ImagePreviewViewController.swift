@@ -26,7 +26,7 @@ class ImagePreviewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func back(_ sender: Any) {
-        performSegue(withIdentifier: "unwindToImagePreview", sender: self)
+    @IBAction func dismissVC(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
 }
