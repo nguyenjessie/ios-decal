@@ -68,7 +68,7 @@
                             <constraint firstItem="wYC-QR-9eI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zmi-6B-crE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="feed" systemItem="favorites" id="xLv-VQ-jLb"/>
+                    <tabBarItem key="tabBarItem" title="" image="feed" selectedImage="feed" id="p46-GL-XQz"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageCollectionView" destination="wYC-QR-9eI" id="lwC-Kg-QfQ"/>
@@ -179,7 +179,7 @@
                             <constraint firstItem="uYK-K6-bhD" firstAttribute="centerY" secondItem="Lou-Ei-BSr" secondAttribute="centerY" id="IfW-NU-3rq"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="post" systemItem="search" id="vfY-50-cJm"/>
+                    <tabBarItem key="tabBarItem" image="post" selectedImage="post" id="vfY-50-cJm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clc-56-cVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,8 +195,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ydo-Dc-IfP"/>
-                        <segue destination="6np-dY-5zg" kind="relationship" relationship="viewControllers" id="Zza-NC-106"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="iCw-e4-qbI"/>
+                        <segue destination="6np-dY-5zg" kind="relationship" relationship="viewControllers" id="YQF-Hk-fNt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bMV-7n-DQD" userLabel="First Responder" sceneMemberID="firstResponder"/>

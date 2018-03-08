@@ -33,6 +33,7 @@ class ImagePickerController: UIViewController {
     /// - Parameter image: UIImage displayed in the selected cell
     func selectImage(_ image: UIImage) {
         // TODO: take this image and display it in a new view controller
+        currentImage = image
         performSegue(withIdentifier: "toImagePreview", sender: currentImage)
     }
     
